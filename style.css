@@ -6,14 +6,21 @@ body, html {
   
   h1 {
     color: navy;
+    text-align: center;
+    font-size: 48px;
   }
-  
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: navy;
+    background-color: darkslategray;
   }
   
   li {
@@ -28,7 +35,7 @@ body, html {
     text-decoration: none;
   }
   
-  #website {
+  /*#website {
     border-style: solid;
     text-align: center;
     text-transform: uppercase;
@@ -36,7 +43,16 @@ body, html {
     padding-right: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
+  }*/
+
+  #website {
+    border-style: solid;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    border-radius: 12px;
   }
+
   
   .parallax {
     /* The image used */
@@ -65,3 +81,28 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  li a:hover {
+  background-color: white;
+  color: darkslategray;
+  }
+
+  #special {
+    background-color: white;
+    border: 2px dashed navy;
+    padding: 12px;
+  }
+
+
+/*Which selector styles the whole page background and sets the font?
+body, html
+
+Which selector styles the nav bar background color?
+ul
+
+Which selector makes the nav links show as white text and removes the underline?
+li a
+
+Which selector adds a border and makes text uppercase? 
+#website
+*/
